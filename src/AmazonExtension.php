@@ -6,7 +6,7 @@ namespace Bolt\Extension\JarJak\Amazon;
 
 use Aws\S3\S3Client;
 use Bolt\Extension\JarJak\Amazon\Filesystem\AmazonFilesystem;
-use Bolt\Extension\SimpleExtension;
+use Bolt\Extension\BaseExtension;
 use Bolt\Filesystem\Adapter\Cached;
 use Bolt\Filesystem\Adapter\S3;
 use Bolt\Filesystem\Cached\DoctrineCache;
@@ -24,7 +24,7 @@ use Symfony\Component\Asset\UrlPackage;
  *
  * @author Jarek Jakubowski <egger1991@gmail.com>
  */
-class AmazonExtension extends SimpleExtension
+class AmazonExtension extends BaseExtension
 {
     /**
      * @var string
