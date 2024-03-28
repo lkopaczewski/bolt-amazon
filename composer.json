@@ -44,6 +44,7 @@
         "branch-alias": {
             "dev-master" : "1.0.x-dev"
         },
-        "bolt-class": "Bolt\\Extension\\JarJak\\Amazon\\AmazonExtension"
+        "bolt-class": "Bolt\\Extension\\JarJak\\Amazon\\AmazonExtension",
+        "entrypoint": "Bolt\\Extension\\JarJak\\Amazon\\AmazonExtension"
     }
 }
